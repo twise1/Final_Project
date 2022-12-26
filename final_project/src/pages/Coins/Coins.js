@@ -1,4 +1,4 @@
-import React from "react";
+import React,{Component} from "react";
 import store from './../../redux/store';
 import getData from "../../redux/actions";
 import './Coins.css';
