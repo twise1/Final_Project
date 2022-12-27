@@ -1,0 +1,2 @@
+CREATE DATABASE catalog_of_precious_coins;
+USE catalog_of_precious_coins;

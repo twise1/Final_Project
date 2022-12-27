@@ -1,0 +1,103 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coinpage {
+    width: 782px;
+    /* height: 624px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coin-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coin-image {
+    width: 300px;
+}
+
+.coin-description {
+    width: 452px;
+    background-color: rgba(196, 196, 196, 0.5);
+    padding: 20px 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coin-name {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+
+.coin-info {
+    white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+    white-space: -pre-wrap; /* Opera */
+    white-space: -o-pre-wrap; /* Opera */
+    white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+    word-wrap: break-word;
+    
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 40px;
+}
+
+.back-list {
+    color: black;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+table, th, td {
+    border: 0.5px solid #B1B1B1;
+}
+
+table {
+    border: none;
+}
+
+td.top {
+    border-top: none;
+}
+
+td.bottom {
+    border-bottom: none;
+}
+
+td.left {
+    border-left: none;
+}
+
+td.right {
+    border-right: none;
+}
+
+.coin-table {
+    width: 366px;
+    height: 140px;
+}
+
+.coin-table td {
+    width: 50%;
+    padding: 6px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 105.2%;
+}
+
+.coin-table_odd {
+    background-color: white;
+}

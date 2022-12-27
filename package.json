@@ -1,0 +1,25 @@
+{
+  "name": "catalog-of-precious-coins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twise1/Final_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twise1/Final_Project/issues"
+  },
+  "homepage": "https://github.com/twise1/Final_Project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "webpack": "^4.16.0"
+  }
+}

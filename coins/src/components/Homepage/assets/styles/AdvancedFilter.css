@@ -1,0 +1,76 @@
+.filters {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 52px;
+    margin-top: 25px;
+}
+
+.select-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.select-box>label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 109%;
+    margin-bottom: 5px;
+}
+
+.select-box>select {
+    width: 374px;
+    height: 48px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 121%;
+    padding-left: 16px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 109%;
+    margin-bottom: 5px;
+}
+
+.inputs-box {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.inputs-box label {
+    display: inline-block;
+    width: 40px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109%;
+}
+
+.inputs-box label.to {
+    width: 20px;
+}
+
+.inputs-box input {
+    box-sizing: border-box;
+    border-width: 1px;
+    padding: 0;
+    width: 155px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 121%;
+    padding: 10px;
+}
